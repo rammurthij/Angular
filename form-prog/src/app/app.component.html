@@ -1,0 +1,35 @@
+<!-- <form (ngSubmit)="callSubmit()">
+  <input type="text" name="user" placeholder="Enter userName"nngModel><br>
+  <input type="submit" value="clcik"/>
+</form>   
+
+
+<form  #formdata="ngForm" (ngSubmit)="callSubmit(formdata.value)">
+  <input type="text" name="user" placeholder="Enter userName" ngModel><br>
+  <input type="submit" value="click"/>
+</form> 
+
+<form #fdata="ngForm" (ngSubmit)="submitData(fdata.value)">
+  <div>
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" ngModel required id="fName" #fName="ngModel"/>
+    <div *ngIf="fName.touched && !fName.valid">
+    <div *ngIf="fName.errors['required']">First Name is required</div></div>
+  </div>
+  
+  
+  <div>
+    <label for="name1">Last  Name</label>
+    <input type="text" name="name1" ngModel required/>
+  </div>
+  
+  <div>
+    <label for="comment">Comment</label>
+    <textarea name="comment" ngModel required></textarea>
+  </div>
+  
+  <button type="submit">Submit</button>
+  </form>   -->
+
+  <app-parent></app-parent>
+  <app-customerlist></app-customerlist>
